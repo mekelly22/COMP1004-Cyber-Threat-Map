@@ -1,0 +1,5930 @@
+const incidentData = [
+    {
+        "ID":  "5379",
+        "start_date":  "2025-12-01",
+        "receiver_country":  [
+                                 "Afghanistan",
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Afghanistan",
+                                         "latitude":  33.7680065,
+                                         "longitude":  66.2385139
+                                     },
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5378",
+        "start_date":  "2026-01-01",
+        "receiver_country":  [
+                                 "Netherlands"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5376",
+        "start_date":  "2026-01-01",
+        "receiver_country":  [
+                                 "Iraq"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Iraq",
+                                         "latitude":  33.0955793,
+                                         "longitude":  44.1749775
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5364",
+        "start_date":  "2026-01-01",
+        "receiver_country":  [
+                                 "Jordan",
+                                 "Jordan",
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Jordan",
+                                         "latitude":  31.1667049,
+                                         "longitude":  36.941628
+                                     },
+                                     {
+                                         "country":  "Jordan",
+                                         "latitude":  31.1667049,
+                                         "longitude":  36.941628
+                                     },
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5333",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "Germany",
+                                 "United States",
+                                 "United States",
+                                 "United States",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5310",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5311",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "United States",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5275",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Norway"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Norway",
+                                         "latitude":  61.1529386,
+                                         "longitude":  8.7876653
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5265",
+        "start_date":  "2025-03-01",
+        "receiver_country":  [
+                                 "Thailand",
+                                 "Philippines",
+                                 "Cambodia",
+                                 "Indonesia",
+                                 "Laos",
+                                 "Singapore"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Thailand",
+                                         "latitude":  14.8971921,
+                                         "longitude":  100.83273
+                                     },
+                                     {
+                                         "country":  "Philippines",
+                                         "latitude":  12.7503486,
+                                         "longitude":  122.7312101
+                                     },
+                                     {
+                                         "country":  "Cambodia",
+                                         "latitude":  12.5433216,
+                                         "longitude":  104.8144914
+                                     },
+                                     {
+                                         "country":  "Indonesia",
+                                         "latitude":  -2.4833826,
+                                         "longitude":  117.8902853
+                                     },
+                                     {
+                                         "country":  "Laos",
+                                         "latitude":  20.0171109,
+                                         "longitude":  103.378253
+                                     },
+                                     {
+                                         "country":  "Singapore",
+                                         "latitude":  1.357107,
+                                         "longitude":  103.8194992
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5237",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5228",
+        "start_date":  "2026-01-01",
+        "receiver_country":  [
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5231",
+        "start_date":  "2025-12-29",
+        "receiver_country":  [
+                                 "Poland"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Poland",
+                                         "latitude":  52.215933,
+                                         "longitude":  19.134422
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5200",
+        "start_date":  "2026-01-01",
+        "receiver_country":  [
+                                 "Morocco"
+                             ],
+        "initiator_country":  [
+                                  "Algeria"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Morocco",
+                                         "latitude":  28.3347722,
+                                         "longitude":  -10.3713379
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Algeria",
+                                          "latitude":  28.0000272,
+                                          "longitude":  2.9999825
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5191",
+        "start_date":  "2025-02-01",
+        "receiver_country":  [
+                                 "Turkey",
+                                 "North Macedonia",
+                                 "Uzbekistan"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Turkey",
+                                         "latitude":  39.294076,
+                                         "longitude":  35.2316631
+                                     },
+                                     {
+                                         "country":  "North Macedonia",
+                                         "latitude":  41.6171214,
+                                         "longitude":  21.7168387
+                                     },
+                                     {
+                                         "country":  "Uzbekistan",
+                                         "latitude":  41.32373,
+                                         "longitude":  63.9528098
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5171",
+        "start_date":  "2025-12-01",
+        "receiver_country":  [
+                                 "India",
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     },
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5170",
+        "start_date":  "2025-12-01",
+        "receiver_country":  [
+                                 "Mexico",
+                                 "Mexico",
+                                 "Mexico",
+                                 "Mexico",
+                                 "Mexico",
+                                 "Mexico",
+                                 "Mexico",
+                                 "Mexico"
+                             ],
+        "initiator_country":  [
+                                  "Mexico"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Mexico",
+                                          "latitude":  23.6585116,
+                                          "longitude":  -102.0077097
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5160",
+        "start_date":  "2025-02-01",
+        "receiver_country":  [
+                                 "Myanmar",
+                                 "Myanmar"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Myanmar",
+                                         "latitude":  17.1750495,
+                                         "longitude":  95.9999652
+                                     },
+                                     {
+                                         "country":  "Myanmar",
+                                         "latitude":  17.1750495,
+                                         "longitude":  95.9999652
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5140",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "Canada",
+                                 "Turkey",
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Canada",
+                                         "latitude":  61.0666922,
+                                         "longitude":  -107.991707
+                                     },
+                                     {
+                                         "country":  "Turkey",
+                                         "latitude":  39.294076,
+                                         "longitude":  35.2316631
+                                     },
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5138",
+        "start_date":  "2025-12-22",
+        "receiver_country":  [
+                                 "France",
+                                 "France"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     },
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5128",
+        "start_date":  "2025-12-17",
+        "receiver_country":  [
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5111",
+        "start_date":  "2025-12-15",
+        "receiver_country":  [
+                                 "Venezuela"
+                             ],
+        "initiator_country":  [
+                                  "United States"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Venezuela",
+                                         "latitude":  8.0018709,
+                                         "longitude":  -66.1109318
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "United States",
+                                          "latitude":  39.7837304,
+                                          "longitude":  -100.445882
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5115",
+        "start_date":  "2025-12-15",
+        "receiver_country":  [
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5099",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "United States",
+                                 "North America"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "North America",
+                                         "latitude":  51.0000002,
+                                         "longitude":  -109.0
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5089",
+        "start_date":  "2025-12-01",
+        "receiver_country":  [
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Turkey"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Turkey",
+                                          "latitude":  39.294076,
+                                          "longitude":  35.2316631
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5076",
+        "start_date":  "2025-11-27",
+        "receiver_country":  [
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5075",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5074",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5064",
+        "start_date":  "2025-11-21",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5043",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "Guatemala",
+                                 "Honduras",
+                                 "Ecuador",
+                                 "Panama",
+                                 "Argentina"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Guatemala",
+                                         "latitude":  15.5855545,
+                                         "longitude":  -90.345759
+                                     },
+                                     {
+                                         "country":  "Honduras",
+                                         "latitude":  15.2572432,
+                                         "longitude":  -86.0755145
+                                     },
+                                     {
+                                         "country":  "Ecuador",
+                                         "latitude":  -1.3397668,
+                                         "longitude":  -79.3666965
+                                     },
+                                     {
+                                         "country":  "Panama",
+                                         "latitude":  8.559559,
+                                         "longitude":  -81.1308434
+                                     },
+                                     {
+                                         "country":  "Argentina",
+                                         "latitude":  -34.9964963,
+                                         "longitude":  -64.9672817
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5042",
+        "start_date":  "2025-11-17",
+        "receiver_country":  [
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5036",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5038",
+        "start_date":  "2025-11-17",
+        "receiver_country":  [
+                                 "Kenya",
+                                 "Kenya",
+                                 "Kenya",
+                                 "Kenya",
+                                 "Kenya",
+                                 "Kenya"
+                             ],
+        "initiator_country":  [
+                                  "Kenya"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Kenya",
+                                         "latitude":  1.4419683,
+                                         "longitude":  38.4313975
+                                     },
+                                     {
+                                         "country":  "Kenya",
+                                         "latitude":  1.4419683,
+                                         "longitude":  38.4313975
+                                     },
+                                     {
+                                         "country":  "Kenya",
+                                         "latitude":  1.4419683,
+                                         "longitude":  38.4313975
+                                     },
+                                     {
+                                         "country":  "Kenya",
+                                         "latitude":  1.4419683,
+                                         "longitude":  38.4313975
+                                     },
+                                     {
+                                         "country":  "Kenya",
+                                         "latitude":  1.4419683,
+                                         "longitude":  38.4313975
+                                     },
+                                     {
+                                         "country":  "Kenya",
+                                         "latitude":  1.4419683,
+                                         "longitude":  38.4313975
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Kenya",
+                                          "latitude":  1.4419683,
+                                          "longitude":  38.4313975
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5027",
+        "start_date":  "2025-11-13",
+        "receiver_country":  [
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5026",
+        "start_date":  "2025-11-12",
+        "receiver_country":  [
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark",
+                                 "Denmark"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5021",
+        "start_date":  "2025-09-05",
+        "receiver_country":  [
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5016",
+        "start_date":  "2025-11-06",
+        "receiver_country":  [
+                                 "Belgium"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5018",
+        "start_date":  "2025-04-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China",
+                                  "China",
+                                  "China"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5009",
+        "start_date":  "2025-04-01",
+        "receiver_country":  [
+                                 "Ukraine",
+                                 "Ukraine",
+                                 "Ukraine",
+                                 "Ukraine",
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5010",
+        "start_date":  "2025-11-06",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "5008",
+        "start_date":  "2025-11-05",
+        "receiver_country":  [
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4991",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "Netherlands",
+                                 "Serbia",
+                                 "Belgium",
+                                 "Hungary",
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     },
+                                     {
+                                         "country":  "Serbia",
+                                         "latitude":  44.0243229,
+                                         "longitude":  21.0765743
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Hungary",
+                                         "latitude":  47.1817585,
+                                         "longitude":  19.5060937
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4989",
+        "start_date":  "2025-04-01",
+        "receiver_country":  [
+                                 "Japan"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Japan",
+                                         "latitude":  36.5748441,
+                                         "longitude":  139.2394179
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4973",
+        "start_date":  "2025-08-01",
+        "receiver_country":  [
+                                 "Romania"
+                             ],
+        "initiator_country":  [
+                                  "Romania"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Romania",
+                                         "latitude":  45.9852129,
+                                         "longitude":  24.6859225
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Romania",
+                                          "latitude":  45.9852129,
+                                          "longitude":  24.6859225
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4965",
+        "start_date":  "2025-09-23",
+        "receiver_country":  [
+                                 "United Kingdom",
+                                 "United Kingdom",
+                                 "United Kingdom",
+                                 "United Kingdom"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4962",
+        "start_date":  "2025-10-04",
+        "receiver_country":  [
+                                 "France"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4958",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Russia",
+                                 "Taiwan"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Taiwan",
+                                         "latitude":  23.9739374,
+                                         "longitude":  120.9820179
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4957",
+        "start_date":  "2025-08-01",
+        "receiver_country":  [
+                                 "Sri Lanka"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Sri Lanka",
+                                         "latitude":  7.5554942,
+                                         "longitude":  80.7137847
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4953",
+        "start_date":  "2025-10-01",
+        "receiver_country":  [
+                                 "Germany"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4937",
+        "start_date":  "2025-09-01",
+        "receiver_country":  [
+                                 "Serbia"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Serbia",
+                                         "latitude":  44.0243229,
+                                         "longitude":  21.0765743
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4936",
+        "start_date":  "2025-10-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4931",
+        "start_date":  "2025-09-24",
+        "receiver_country":  [
+                                 "Japan"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Japan",
+                                         "latitude":  36.5748441,
+                                         "longitude":  139.2394179
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4925",
+        "start_date":  "2025-09-22",
+        "receiver_country":  [
+                                 "France"
+                             ],
+        "initiator_country":  [
+                                  "Malaysia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Malaysia",
+                                          "latitude":  4.5693754,
+                                          "longitude":  102.2656823
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4914",
+        "start_date":  "2025-09-24",
+        "receiver_country":  [
+                                 "Moldova, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Moldova, Republic of",
+                                         "latitude":  46.6745434,
+                                         "longitude":  29.7521996
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4911",
+        "start_date":  "2025-09-28",
+        "receiver_country":  [
+                                 "Peru"
+                             ],
+        "initiator_country":  [
+                                  "Peru"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Peru",
+                                         "latitude":  -6.8699697,
+                                         "longitude":  -75.0458515
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Peru",
+                                          "latitude":  -6.8699697,
+                                          "longitude":  -75.0458515
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4902",
+        "start_date":  "2025-03-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4892",
+        "start_date":  "2025-09-22",
+        "receiver_country":  [
+                                 "Portugal",
+                                 "Sweden",
+                                 "Denmark"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Portugal",
+                                         "latitude":  39.6621648,
+                                         "longitude":  -8.1353519
+                                     },
+                                     {
+                                         "country":  "Sweden",
+                                         "latitude":  59.6749712,
+                                         "longitude":  14.5208584
+                                     },
+                                     {
+                                         "country":  "Denmark",
+                                         "latitude":  55.670249,
+                                         "longitude":  10.3333283
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4891",
+        "start_date":  "2025-09-16",
+        "receiver_country":  [
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4880",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Russia",
+                                  "Russia"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      },
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4877",
+        "start_date":  "2025-08-01",
+        "receiver_country":  [
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4890",
+        "start_date":  "2025-09-05",
+        "receiver_country":  [
+                                 "Sri Lanka",
+                                 "Nigeria",
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Morocco"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Sri Lanka",
+                                         "latitude":  7.5554942,
+                                         "longitude":  80.7137847
+                                     },
+                                     {
+                                         "country":  "Nigeria",
+                                         "latitude":  9.6000359,
+                                         "longitude":  7.9999721
+                                     },
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Morocco",
+                                          "latitude":  28.3347722,
+                                          "longitude":  -10.3713379
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4886",
+        "start_date":  "2025-09-12",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4872",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "Korea, Republic of",
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Republic of"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     },
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Republic of",
+                                          "latitude":  1.4358423,
+                                          "longitude":  103.7861406
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4869",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "United States",
+                                 "United States",
+                                 "United States",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4861",
+        "start_date":  "2025-09-14",
+        "receiver_country":  [
+                                 "Russia",
+                                 "Russia",
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4843",
+        "start_date":  "2025-09-04",
+        "receiver_country":  [
+                                 "Peru"
+                             ],
+        "initiator_country":  [
+                                  "Peru"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Peru",
+                                         "latitude":  -6.8699697,
+                                         "longitude":  -75.0458515
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Peru",
+                                          "latitude":  -6.8699697,
+                                          "longitude":  -75.0458515
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4844",
+        "start_date":  "2025-08-18",
+        "receiver_country":  [
+                                 "Argentina"
+                             ],
+        "initiator_country":  [
+                                  "Brazil"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Argentina",
+                                         "latitude":  -34.9964963,
+                                         "longitude":  -64.9672817
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Brazil",
+                                          "latitude":  -10.3333333,
+                                          "longitude":  -53.2
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4827",
+        "start_date":  "2025-08-01",
+        "receiver_country":  [
+                                 "Oman"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Oman",
+                                         "latitude":  21.0000287,
+                                         "longitude":  57.0036901
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4798",
+        "start_date":  "2025-08-23",
+        "receiver_country":  [
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4783",
+        "start_date":  "2025-08-17",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4782",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Germany"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4781",
+        "start_date":  "2025-08-08",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4760",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4754",
+        "start_date":  "2025-08-05",
+        "receiver_country":  [
+                                 "Germany"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4750",
+        "start_date":  "2025-08-02",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4745",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4744",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "Netherlands"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4742",
+        "start_date":  "2025-08-02",
+        "receiver_country":  [
+                                 "Israel",
+                                 "Israel",
+                                 "Israel",
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Palestine"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     },
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     },
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     },
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Palestine",
+                                          "latitude":  31.7621153,
+                                          "longitude":  -95.6307891
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4730",
+        "start_date":  "2025-07-25",
+        "receiver_country":  [
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4728",
+        "start_date":  "2025-06-10",
+        "receiver_country":  [
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4727",
+        "start_date":  "2025-03-01",
+        "receiver_country":  [
+                                 "Belarus"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine",
+                                  "Belarus"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Belarus",
+                                         "latitude":  53.4250605,
+                                         "longitude":  27.6971358
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      },
+                                      {
+                                          "country":  "Belarus",
+                                          "latitude":  53.4250605,
+                                          "longitude":  27.6971358
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4725",
+        "start_date":  "2025-03-01",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Belarus",
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Belarus",
+                                          "latitude":  53.4250605,
+                                          "longitude":  27.6971358
+                                      },
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4724",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4721",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4720",
+        "start_date":  "2025-07-07",
+        "receiver_country":  [
+                                 "United States",
+                                 "United States",
+                                 "United States",
+                                 "United States",
+                                 "United States",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China",
+                                  "China",
+                                  "China"
+                              ],
+        "incident_type":  "",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4700",
+        "start_date":  "2025-07-07",
+        "receiver_country":  [
+                                 "Jordan",
+                                 "Germany",
+                                 "Netherlands",
+                                 "Canada",
+                                 "United States",
+                                 "United States",
+                                 "Switzerland",
+                                 "Mexico",
+                                 "Austria",
+                                 "Brazil",
+                                 "United States",
+                                 "South Africa",
+                                 "Spain",
+                                 "United States",
+                                 "United States",
+                                 "Australia",
+                                 "United States",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China",
+                                  "China",
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Jordan",
+                                         "latitude":  31.1667049,
+                                         "longitude":  36.941628
+                                     },
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     },
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     },
+                                     {
+                                         "country":  "Canada",
+                                         "latitude":  61.0666922,
+                                         "longitude":  -107.991707
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Austria",
+                                         "latitude":  47.59397,
+                                         "longitude":  14.12456
+                                     },
+                                     {
+                                         "country":  "Brazil",
+                                         "latitude":  -10.3333333,
+                                         "longitude":  -53.2
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "South Africa",
+                                         "latitude":  -28.8166236,
+                                         "longitude":  24.991639
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Australia",
+                                         "latitude":  -24.7761086,
+                                         "longitude":  134.755
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4695",
+        "start_date":  "2025-07-19",
+        "receiver_country":  [
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4699",
+        "start_date":  "2025-06-23",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4691",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine",
+                                  "Ukraine",
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      },
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      },
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4688",
+        "start_date":  "2025-07-13",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4686",
+        "start_date":  "2025-03-01",
+        "receiver_country":  [
+                                 "Taiwan",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China",
+                                  "China",
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Taiwan",
+                                         "latitude":  23.9739374,
+                                         "longitude":  120.9820179
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4678",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4675",
+        "start_date":  "2025-07-01",
+        "receiver_country":  [
+                                 "France"
+                             ],
+        "initiator_country":  [
+                                  "France"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "France",
+                                          "latitude":  46.603354,
+                                          "longitude":  1.8883335
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4674",
+        "start_date":  "2025-07-10",
+        "receiver_country":  [
+                                 "Germany"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4673",
+        "start_date":  "2025-06-30",
+        "receiver_country":  [
+                                 "France"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4667",
+        "start_date":  "2025-06-07",
+        "receiver_country":  [
+                                 "India",
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     },
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4635",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4630",
+        "start_date":  "2025-05-31",
+        "receiver_country":  [
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Spain"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Spain",
+                                          "latitude":  39.3260685,
+                                          "longitude":  -4.8379791
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4628",
+        "start_date":  "2025-04-07",
+        "receiver_country":  [
+                                 "Norway"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Norway",
+                                         "latitude":  61.1529386,
+                                         "longitude":  8.7876653
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4625",
+        "start_date":  "2025-06-22",
+        "receiver_country":  [
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4624",
+        "start_date":  "2025-02-01",
+        "receiver_country":  [
+                                 "Canada"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Canada",
+                                         "latitude":  61.0666922,
+                                         "longitude":  -107.991707
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4623",
+        "start_date":  "2025-06-22",
+        "receiver_country":  [
+                                 "Saudi Arabia"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Saudi Arabia",
+                                         "latitude":  25.6242618,
+                                         "longitude":  42.3528328
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4614",
+        "start_date":  "2025-03-07",
+        "receiver_country":  [
+                                 "Spain",
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4615",
+        "start_date":  "2025-06-18",
+        "receiver_country":  [
+                                 "Iran, Islamic Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Israel"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Iran, Islamic Republic of",
+                                         "latitude":  36.2665119,
+                                         "longitude":  59.5999861
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Israel",
+                                          "latitude":  30.8124247,
+                                          "longitude":  34.8594762
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4607",
+        "start_date":  "2025-06-17",
+        "receiver_country":  [
+                                 "Iran, Islamic Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Israel"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Iran, Islamic Republic of",
+                                         "latitude":  36.2665119,
+                                         "longitude":  59.5999861
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Israel",
+                                          "latitude":  30.8124247,
+                                          "longitude":  34.8594762
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4609",
+        "start_date":  "2025-04-01",
+        "receiver_country":  [
+                                 "Russia",
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4611",
+        "start_date":  "2025-05-28",
+        "receiver_country":  [
+                                 "Thailand",
+                                 "Thailand",
+                                 "Thailand"
+                             ],
+        "initiator_country":  [
+                                  "Cambodia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Thailand",
+                                         "latitude":  14.8971921,
+                                         "longitude":  100.83273
+                                     },
+                                     {
+                                         "country":  "Thailand",
+                                         "latitude":  14.8971921,
+                                         "longitude":  100.83273
+                                     },
+                                     {
+                                         "country":  "Thailand",
+                                         "latitude":  14.8971921,
+                                         "longitude":  100.83273
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Cambodia",
+                                          "latitude":  12.5433216,
+                                          "longitude":  104.8144914
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4597",
+        "start_date":  "2025-06-12",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine",
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      },
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4589",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "Morocco"
+                             ],
+        "initiator_country":  [
+                                  "Algeria"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Morocco",
+                                         "latitude":  28.3347722,
+                                         "longitude":  -10.3713379
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Algeria",
+                                          "latitude":  28.0000272,
+                                          "longitude":  2.9999825
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4587",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "France",
+                                 "France",
+                                 "France",
+                                 "France"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     },
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     },
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     },
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4584",
+        "start_date":  "2025-06-05",
+        "receiver_country":  [
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4574",
+        "start_date":  "2025-06-01",
+        "receiver_country":  [
+                                 "Morocco",
+                                 "Morocco"
+                             ],
+        "initiator_country":  [
+                                  "Algeria"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Morocco",
+                                         "latitude":  28.3347722,
+                                         "longitude":  -10.3713379
+                                     },
+                                     {
+                                         "country":  "Morocco",
+                                         "latitude":  28.3347722,
+                                         "longitude":  -10.3713379
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Algeria",
+                                          "latitude":  28.0000272,
+                                          "longitude":  2.9999825
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4559",
+        "start_date":  "2025-05-20",
+        "receiver_country":  [
+                                 "China"
+                             ],
+        "initiator_country":  [
+                                  "Taiwan"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "China",
+                                         "latitude":  35.000074,
+                                         "longitude":  104.999927
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Taiwan",
+                                          "latitude":  23.9739374,
+                                          "longitude":  120.9820179
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4554",
+        "start_date":  "2025-05-15",
+        "receiver_country":  [
+                                 "Northern Europe",
+                                 "United Kingdom",
+                                 "Korea, Republic of",
+                                 "Germany",
+                                 "United Kingdom",
+                                 "United States",
+                                 "Germany",
+                                 "United States",
+                                 "Ireland",
+                                 "United States",
+                                 "Japan",
+                                 "Germany",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Northern Europe",
+                                         "latitude":  53.8627662,
+                                         "longitude":  27.5371446
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     },
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Ireland",
+                                         "latitude":  52.865196,
+                                         "longitude":  -7.9794599
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Japan",
+                                         "latitude":  36.5748441,
+                                         "longitude":  139.2394179
+                                     },
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4553",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "United States",
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4539",
+        "start_date":  "2025-05-12",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4534",
+        "start_date":  "2025-05-16",
+        "receiver_country":  [
+                                 "Poland"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Poland",
+                                         "latitude":  52.215933,
+                                         "longitude":  19.134422
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4532",
+        "start_date":  "2025-04-01",
+        "receiver_country":  [
+                                 "United Kingdom",
+                                 "United States",
+                                 "Saudi Arabia",
+                                 "United States",
+                                 "United Kingdom",
+                                 "United Kingdom"
+                             ],
+        "initiator_country":  [
+                                  "China",
+                                  "China",
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Saudi Arabia",
+                                         "latitude":  25.6242618,
+                                         "longitude":  42.3528328
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      },
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4524",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Iraq"
+                             ],
+        "initiator_country":  [
+                                  "Turkey"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Iraq",
+                                         "latitude":  33.0955793,
+                                         "longitude":  44.1749775
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Turkey",
+                                          "latitude":  39.294076,
+                                          "longitude":  35.2316631
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4522",
+        "start_date":  "2025-05-06",
+        "receiver_country":  [
+                                 "United Kingdom",
+                                 "United Kingdom",
+                                 "United Kingdom",
+                                 "United Kingdom",
+                                 "United Kingdom",
+                                 "United Kingdom"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4513",
+        "start_date":  "2025-04-13",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4512",
+        "start_date":  "2025-05-05",
+        "receiver_country":  [
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4515",
+        "start_date":  "2025-05-04",
+        "receiver_country":  [
+                                 "Romania",
+                                 "Romania",
+                                 "Romania",
+                                 "Romania",
+                                 "Romania"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Romania",
+                                         "latitude":  45.9852129,
+                                         "longitude":  24.6859225
+                                     },
+                                     {
+                                         "country":  "Romania",
+                                         "latitude":  45.9852129,
+                                         "longitude":  24.6859225
+                                     },
+                                     {
+                                         "country":  "Romania",
+                                         "latitude":  45.9852129,
+                                         "longitude":  24.6859225
+                                     },
+                                     {
+                                         "country":  "Romania",
+                                         "latitude":  45.9852129,
+                                         "longitude":  24.6859225
+                                     },
+                                     {
+                                         "country":  "Romania",
+                                         "latitude":  45.9852129,
+                                         "longitude":  24.6859225
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4509",
+        "start_date":  "2025-04-29",
+        "receiver_country":  [
+                                 "Germany"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4508",
+        "start_date":  "2025-05-02",
+        "receiver_country":  [
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Netherlands"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Netherlands",
+                                          "latitude":  52.2434979,
+                                          "longitude":  5.6343227
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4507",
+        "start_date":  "2025-05-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4503",
+        "start_date":  "2025-01-26",
+        "receiver_country":  [
+                                 "China"
+                             ],
+        "initiator_country":  [
+                                  "United States"
+                              ],
+        "incident_type":  "Hijacking without Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "China",
+                                         "latitude":  35.000074,
+                                         "longitude":  104.999927
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "United States",
+                                          "latitude":  39.7837304,
+                                          "longitude":  -100.445882
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4500",
+        "start_date":  "2025-04-29",
+        "receiver_country":  [
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4498",
+        "start_date":  "2025-04-28",
+        "receiver_country":  [
+                                 "Netherlands",
+                                 "Netherlands"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     },
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4492",
+        "start_date":  "2025-04-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "United States"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "United States",
+                                          "latitude":  39.7837304,
+                                          "longitude":  -100.445882
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4491",
+        "start_date":  "2025-04-26",
+        "receiver_country":  [
+                                 "India"
+                             ],
+        "initiator_country":  [
+                                  "Pakistan"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Pakistan",
+                                          "latitude":  30.3308401,
+                                          "longitude":  71.247499
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4476",
+        "start_date":  "2025-04-18",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4458",
+        "start_date":  "2025-04-08",
+        "receiver_country":  [
+                                 "Morocco"
+                             ],
+        "initiator_country":  [
+                                  "Germany"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Morocco",
+                                         "latitude":  28.3347722,
+                                         "longitude":  -10.3713379
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Germany",
+                                          "latitude":  51.1638175,
+                                          "longitude":  10.4478313
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4437",
+        "start_date":  "2025-03-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4417",
+        "start_date":  "2025-03-22",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "United States"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "United States",
+                                          "latitude":  39.7837304,
+                                          "longitude":  -100.445882
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4405",
+        "start_date":  "2025-03-24",
+        "receiver_country":  [
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium",
+                                 "Belgium"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     },
+                                     {
+                                         "country":  "Belgium",
+                                         "latitude":  50.6402809,
+                                         "longitude":  4.6667145
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4404",
+        "start_date":  "2025-03-23",
+        "receiver_country":  [
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4400",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "Iran, Islamic Republic of",
+                                 "Iran, Islamic Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Iran, Islamic Republic of",
+                                         "latitude":  36.2665119,
+                                         "longitude":  59.5999861
+                                     },
+                                     {
+                                         "country":  "Iran, Islamic Republic of",
+                                         "latitude":  36.2665119,
+                                         "longitude":  59.5999861
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4366",
+        "start_date":  "2025-03-04",
+        "receiver_country":  [
+                                 "Korea, Republic of",
+                                 "Korea, Republic of",
+                                 "Korea, Republic of",
+                                 "Korea, Republic of"
+                             ],
+        "initiator_country":  [
+                                  "Malaysia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     },
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     },
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     },
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Malaysia",
+                                          "latitude":  4.5693754,
+                                          "longitude":  102.2656823
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4358",
+        "start_date":  "2025-03-07",
+        "receiver_country":  [
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4356",
+        "start_date":  "2025-03-02",
+        "receiver_country":  [
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4351",
+        "start_date":  "2025-03-03",
+        "receiver_country":  [
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain",
+                                 "Spain"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4348",
+        "start_date":  "2025-02-28",
+        "receiver_country":  [
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4343",
+        "start_date":  "2025-02-24",
+        "receiver_country":  [
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4338",
+        "start_date":  "2025-02-25",
+        "receiver_country":  [
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4332",
+        "start_date":  "2025-02-19",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4324",
+        "start_date":  "2025-02-21",
+        "receiver_country":  [
+                                 "Mexico"
+                             ],
+        "initiator_country":  [
+                                  "Mexico"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Mexico",
+                                          "latitude":  23.6585116,
+                                          "longitude":  -102.0077097
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4327",
+        "start_date":  "2025-02-21",
+        "receiver_country":  [
+                                 "United Arab Emirates"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United Arab Emirates",
+                                         "latitude":  24.0002488,
+                                         "longitude":  53.9994829
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4307",
+        "start_date":  "2025-02-13",
+        "receiver_country":  [
+                                 "Kuwait",
+                                 "Kuwait"
+                             ],
+        "initiator_country":  [
+                                  "China"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Kuwait",
+                                         "latitude":  29.2733964,
+                                         "longitude":  47.4979476
+                                     },
+                                     {
+                                         "country":  "Kuwait",
+                                         "latitude":  29.2733964,
+                                         "longitude":  47.4979476
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "China",
+                                          "latitude":  35.000074,
+                                          "longitude":  104.999927
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4303",
+        "start_date":  "2025-02-17",
+        "receiver_country":  [
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4302",
+        "start_date":  "2025-02-14",
+        "receiver_country":  [
+                                 "Germany"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4289",
+        "start_date":  "2025-02-07",
+        "receiver_country":  [
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia",
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine",
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      },
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4282",
+        "start_date":  "2025-02-09",
+        "receiver_country":  [
+                                 "Israel"
+                             ],
+        "initiator_country":  [
+                                  "Iran, Islamic Republic of"
+                              ],
+        "incident_type":  "Data theft \u0026 Doxing; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Israel",
+                                         "latitude":  30.8124247,
+                                         "longitude":  34.8594762
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Iran, Islamic Republic of",
+                                          "latitude":  36.2665119,
+                                          "longitude":  59.5999861
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4281",
+        "start_date":  "2025-01-01",
+        "receiver_country":  [
+                                 "United States"
+                             ],
+        "initiator_country":  [
+                                  "United States",
+                                  "United States"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "United States",
+                                          "latitude":  39.7837304,
+                                          "longitude":  -100.445882
+                                      },
+                                      {
+                                          "country":  "United States",
+                                          "latitude":  39.7837304,
+                                          "longitude":  -100.445882
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4279",
+        "start_date":  "2025-02-05",
+        "receiver_country":  [
+                                 "Ukraine",
+                                 "Ukraine",
+                                 "Ukraine",
+                                 "Ukraine"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4252",
+        "start_date":  "2025-01-28",
+        "receiver_country":  [
+                                 "Russia",
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     },
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4246",
+        "start_date":  "2025-01-25",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4237",
+        "start_date":  "2025-01-24",
+        "receiver_country":  [
+                                 "Singapore"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Singapore",
+                                         "latitude":  1.357107,
+                                         "longitude":  103.8194992
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4228",
+        "start_date":  "2025-01-20",
+        "receiver_country":  [
+                                 "Switzerland",
+                                 "Switzerland",
+                                 "Switzerland",
+                                 "Switzerland",
+                                 "Switzerland"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     },
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     },
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     },
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     },
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4222",
+        "start_date":  "2025-01-09",
+        "receiver_country":  [
+                                 "Egypt",
+                                 "Spain",
+                                 "Ukraine",
+                                 "Thailand",
+                                 "Laos",
+                                 "United Arab Emirates",
+                                 "Netherlands",
+                                 "Mexico",
+                                 "Brazil",
+                                 "Vietnam",
+                                 "Indonesia",
+                                 "Bangladesh",
+                                 "Germany",
+                                 "United Kingdom",
+                                 "Italy",
+                                 "Pakistan",
+                                 "United States",
+                                 "Finland",
+                                 "Brunei",
+                                 "India",
+                                 "Portugal",
+                                 "Switzerland",
+                                 "Slovakia",
+                                 "France",
+                                 "Korea, Republic of",
+                                 "Canada",
+                                 "Argentina",
+                                 "Malaysia",
+                                 "Estonia"
+                             ],
+        "initiator_country":  [
+                                  "Korea, Democratic People\u0027s Republic of"
+                              ],
+        "incident_type":  "Data theft; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Egypt",
+                                         "latitude":  26.2540493,
+                                         "longitude":  29.2675469
+                                     },
+                                     {
+                                         "country":  "Spain",
+                                         "latitude":  39.3260685,
+                                         "longitude":  -4.8379791
+                                     },
+                                     {
+                                         "country":  "Ukraine",
+                                         "latitude":  49.4871968,
+                                         "longitude":  31.2718321
+                                     },
+                                     {
+                                         "country":  "Thailand",
+                                         "latitude":  14.8971921,
+                                         "longitude":  100.83273
+                                     },
+                                     {
+                                         "country":  "Laos",
+                                         "latitude":  20.0171109,
+                                         "longitude":  103.378253
+                                     },
+                                     {
+                                         "country":  "United Arab Emirates",
+                                         "latitude":  24.0002488,
+                                         "longitude":  53.9994829
+                                     },
+                                     {
+                                         "country":  "Netherlands",
+                                         "latitude":  52.2434979,
+                                         "longitude":  5.6343227
+                                     },
+                                     {
+                                         "country":  "Mexico",
+                                         "latitude":  23.6585116,
+                                         "longitude":  -102.0077097
+                                     },
+                                     {
+                                         "country":  "Brazil",
+                                         "latitude":  -10.3333333,
+                                         "longitude":  -53.2
+                                     },
+                                     {
+                                         "country":  "Vietnam",
+                                         "latitude":  15.9266657,
+                                         "longitude":  107.9650855
+                                     },
+                                     {
+                                         "country":  "Indonesia",
+                                         "latitude":  -2.4833826,
+                                         "longitude":  117.8902853
+                                     },
+                                     {
+                                         "country":  "Bangladesh",
+                                         "latitude":  24.4769288,
+                                         "longitude":  90.2934413
+                                     },
+                                     {
+                                         "country":  "Germany",
+                                         "latitude":  51.1638175,
+                                         "longitude":  10.4478313
+                                     },
+                                     {
+                                         "country":  "United Kingdom",
+                                         "latitude":  54.7023545,
+                                         "longitude":  -3.2765753
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Pakistan",
+                                         "latitude":  30.3308401,
+                                         "longitude":  71.247499
+                                     },
+                                     {
+                                         "country":  "United States",
+                                         "latitude":  39.7837304,
+                                         "longitude":  -100.445882
+                                     },
+                                     {
+                                         "country":  "Finland",
+                                         "latitude":  63.2467777,
+                                         "longitude":  25.9209164
+                                     },
+                                     {
+                                         "country":  "Brunei",
+                                         "latitude":  4.4137155,
+                                         "longitude":  114.5653908
+                                     },
+                                     {
+                                         "country":  "India",
+                                         "latitude":  22.3511148,
+                                         "longitude":  78.6677428
+                                     },
+                                     {
+                                         "country":  "Portugal",
+                                         "latitude":  39.6621648,
+                                         "longitude":  -8.1353519
+                                     },
+                                     {
+                                         "country":  "Switzerland",
+                                         "latitude":  46.7985624,
+                                         "longitude":  8.2319736
+                                     },
+                                     {
+                                         "country":  "Slovakia",
+                                         "latitude":  48.7411522,
+                                         "longitude":  19.4528646
+                                     },
+                                     {
+                                         "country":  "France",
+                                         "latitude":  46.603354,
+                                         "longitude":  1.8883335
+                                     },
+                                     {
+                                         "country":  "Korea, Republic of",
+                                         "latitude":  1.4358423,
+                                         "longitude":  103.7861406
+                                     },
+                                     {
+                                         "country":  "Canada",
+                                         "latitude":  61.0666922,
+                                         "longitude":  -107.991707
+                                     },
+                                     {
+                                         "country":  "Argentina",
+                                         "latitude":  -34.9964963,
+                                         "longitude":  -64.9672817
+                                     },
+                                     {
+                                         "country":  "Malaysia",
+                                         "latitude":  4.5693754,
+                                         "longitude":  102.2656823
+                                     },
+                                     {
+                                         "country":  "Estonia",
+                                         "latitude":  58.7523778,
+                                         "longitude":  25.3319078
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Korea, Democratic People\u0027s Republic of",
+                                          "latitude":  null,
+                                          "longitude":  null
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4209",
+        "start_date":  "2025-01-07",
+        "receiver_country":  [
+                                 "Slovakia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Disruption; Hijacking with Misuse; Ransomware",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Slovakia",
+                                         "latitude":  48.7411522,
+                                         "longitude":  19.4528646
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4199",
+        "start_date":  "2025-01-11",
+        "receiver_country":  [
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy",
+                                 "Italy"
+                             ],
+        "initiator_country":  [
+                                  "Russia"
+                              ],
+        "incident_type":  "Disruption",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     },
+                                     {
+                                         "country":  "Italy",
+                                         "latitude":  42.6384261,
+                                         "longitude":  12.674297
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Russia",
+                                          "latitude":  64.6863136,
+                                          "longitude":  97.7453061
+                                      }
+                                  ]
+    },
+    {
+        "ID":  "4190",
+        "start_date":  "2025-01-07",
+        "receiver_country":  [
+                                 "Russia"
+                             ],
+        "initiator_country":  [
+                                  "Ukraine"
+                              ],
+        "incident_type":  "Data theft; Disruption; Hijacking with Misuse",
+        "MITRE_initial_access":  "",
+        "receiver_country_geo":  [
+                                     {
+                                         "country":  "Russia",
+                                         "latitude":  64.6863136,
+                                         "longitude":  97.7453061
+                                     }
+                                 ],
+        "initiator_country_geo":  [
+                                      {
+                                          "country":  "Ukraine",
+                                          "latitude":  49.4871968,
+                                          "longitude":  31.2718321
+                                      }
+                                  ]
+    }
+];

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2025 Cyber Threat Map</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- makes sure the page is displayed correctly on all devices -->
+  </head>
+
+  <body>
+    <!-- "receiver countries" side pannel-->
+    <div id="receiver-countries-sidebar">
+      <div id="receiver-countries-header">
+        <h2>Receiver Countries</h2>
+        <span id="receiver-countries-toggle-icon">▼</span>
+        <!-- using span tag for inline elements (not a new line)-->
+      </div>
+
+      <div id="receiver-countries-list"></div>
+    </div>
+
+    <!--Bottom-left attack type panel. Reuses the code from receiver countries-->
+    <div id="attack-sidebar">
+      <div id="attack-sidebar-header">
+        <h2>Attack Types</h2>
+        <span id="attack-toggle-icon">▲</span>
+      </div>
+
+      <div id="attack-list"></div>
+    </div>
+
+    <!-- Modal for displaying country-specific attack incidents -->
+    <div id="country-attack-detail-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modal-country-name">Selected Country</h3>
+          <div class="modal-actions">
+            <!-- Export buttons for JSON -->
+            <button
+              id="export-json-btn"
+              class="export-btn"
+              title="Export incidents as JSON"
+            >
+              📥 JSON
+            </button>
+            <button id="modal-close-btn">✕</button>
+          </div>
+        </div>
+
+        <!-- Container for incident details -->
+        <div id="country-incidents-list" class="incidents-list">
+        </div>
+      </div>
+    </div>
+
+<!-- Map container -->
+    <div id="map-container">
+      <canvas id="map"></canvas>
+    </div>
+
+    <!--settings menu-->
+    <div id="settings-menu">
+      <button id="settings-button">⚙️</button>
+      <div id="settings-panel">
+        <div id="settings-header">
+          <h3>Settings</h3>
+        </div>
+
+        <!--dark/light mode toggle -->
+        <div id="settings-content">
+          <div class="setting-item">
+            <span class="theme-mode-label theme-mode-label-dark">Dark</span>
+            <button
+              id="theme-toggle"
+              class="toggle-button"
+              aria-label="Toggle dark/light mode"
+              aria-pressed="false"
+            >
+              <span class="toggle-slider"></span>
+            </button>
+            <span class="theme-mode-label theme-mode-label-light">Light</span>
+          </div>
+
+          <!-- TTS Toggle -->
+          <div class="setting-item">
+            <span class="theme-mode-label">TTS</span>
+            <button id="tts-toggle" class="toggle-button" aria-pressed="false">
+              <span class="toggle-slider"></span>
+            </button>
+          </div>
+
+          <!-- speed buttons -->
+          <div class="setting-item" id="speed-buttons">
+            <button class="speed-button" data-speed="0.5">0.5x</button>
+            <button class="speed-button" data-speed="1">1x</button>
+            <button class="speed-button" data-speed="1.5">1.5x</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--loading the javascripts-->
+    <script src="data.js"></script> <!--holds database information-->
+    <script src="main.js"></script>
+  </body>
+</html>
