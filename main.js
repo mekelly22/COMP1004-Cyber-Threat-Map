@@ -1,12 +1,3 @@
-/*
-
-  Sources:
-  - Canvas API: https://www.w3schools.com/tags/ref_canvas.asp
-  - requestAnimationFrame: https://www.w3schools.com/jsref/met_win_requestanimationframe.asp
-  - Map: https://www.w3schools.com/jsref/obj_map.asp
-  - Array methods: https://www.w3schools.com/js/js_array_methods.asp
-*/
-
 //call DOM refernces
 const canvas = document.getElementById('map');
 const context = canvas.getContext('2d'); 
@@ -112,6 +103,40 @@ function parseIncidentTypes(incidentType) {
     return (incidentType || '').split(';').map(t => t.trim()).filter(Boolean);
 }
 
+// Clean and deduplicate country names within a single incident.
+function getUniqueCountryNames(countries) {
+    const seenCountries = new Set();
+
+    return (countries || [])
+        .map(country => String(country || '').trim())
+        .filter(country => {
+            const countryKey = country.toLowerCase();
+            if (!country || seenCountries.has(countryKey)) return false;
+            seenCountries.add(countryKey);
+            return true;
+        });
+}
+
+// Clean and deduplicate geo points within a single incident.
+function getUniqueGeoPoints(geoPoints) {
+    const seenGeoPoints = new Set();
+
+    return (geoPoints || []).filter(geoPoint => {
+        if (!isValidGeoPoint(geoPoint)) return false;
+
+        const country = String(geoPoint.country || '').trim();
+        const geoKey = `${country.toLowerCase()}__${geoPoint.latitude}__${geoPoint.longitude}`;
+        if (!country || seenGeoPoints.has(geoKey)) return false;
+
+        seenGeoPoints.add(geoKey);
+        return true;
+    });
+}
+
+function getIncidentKey(incident, index) {
+    return String(incident.ID || index);
+}
+
 //Computes how many days the simulation will run 
 function computeSimulationDaysFromData(incidents) {
     const timestamps = incidents
@@ -145,7 +170,7 @@ function speak(text) {
 function buildCountryFrequencyMap(incidents) {
     const countryAttackCount = {};
     incidents.forEach(incident => {
-        incident.receiver_country.forEach(country => {
+        getUniqueCountryNames(incident.receiver_country).forEach(country => {
             countryAttackCount[country] = (countryAttackCount[country] || 0) + 1;
         });
     });
@@ -227,15 +252,22 @@ function renderAttackListFromMap(attackTypeFrequencyMap) {
 //Contry attack detail modal func
 function buildCountryToIncidentsMap() {
     const map = {};
+    const seenIncidentByCountry = {};
 
-    incidentData.forEach(incident => {
-        incident.receiver_country.forEach(country => {
+    incidentData.forEach((incident, index) => {
+        getUniqueCountryNames(incident.receiver_country).forEach(country => {
+            const incidentKey = getIncidentKey(incident, index);
+
             // If this is the first time we're seeing this country, create an empty array
             if (!map[country]) {
                 map[country] = [];
+                seenIncidentByCountry[country] = new Set();
             }
+            if (seenIncidentByCountry[country].has(incidentKey)) return;
+
             // Add this incident to the country's list
             map[country].push(incident);
+            seenIncidentByCountry[country].add(incidentKey);
         });
     });
     
@@ -263,8 +295,8 @@ function displayCountryIncidents(selectedCountry) {
         const incidentDiv = document.createElement('div');
         incidentDiv.className = 'incident-detail';
         const type = incident.incident_type || 'Unknown';
-        const from = (incident.initiator_country || []).join(', ') || 'Unknown';
-        const to = (incident.receiver_country || []).join(', ') || 'Unknown';
+        const from = getUniqueCountryNames(incident.initiator_country).join(', ') || 'Unknown';
+        const to = getUniqueCountryNames(incident.receiver_country).join(', ') || 'Unknown';
         
         //create html structure
         incidentDiv.innerHTML = `
@@ -287,7 +319,7 @@ function displayCountryIncidents(selectedCountry) {
 }
 function showCountryDetailsModal(country, incidentCount) {
     // Update the modal header to show country name and incident count
-    modalCountryName.textContent = `${country} — ${incidentCount} Attack${incidentCount !== 1 ? 's' : ''}`;
+    modalCountryName.textContent = `${country} - ${incidentCount} Attack${incidentCount !== 1 ? 's' : ''}`;
     
     speak(`Displaying details for ${country}`);
     countryAttackDetailModal.classList.remove('hidden');
@@ -303,8 +335,8 @@ function exportIncidentsAsJSON(country, incidents) {
             id: incident.ID,
             date: incident.start_date,
             type: incident.incident_type || 'Unknown',
-            attackerCountries: incident.initiator_country || [],
-            affectedCountries: incident.receiver_country || [],
+            attackerCountries: getUniqueCountryNames(incident.initiator_country),
+            affectedCountries: getUniqueCountryNames(incident.receiver_country),
         }))
     };
 
@@ -453,11 +485,10 @@ exportJsonBtn.addEventListener('click', () => {
 function buildCombinedThreatRoutes() {
     const routeMap = new Map();
     incidentData.forEach(incident => {
-        const sourceGeo = (incident.initiator_country_geo || []).find(isValidGeoPoint) || null;
+        const sourceGeo = getUniqueGeoPoints(incident.initiator_country_geo)[0] || null;
         if (!sourceGeo) return;
 
-        (incident.receiver_country_geo || []).forEach(targetGeo => {
-            if (!isValidGeoPoint(targetGeo)) return;
+        getUniqueGeoPoints(incident.receiver_country_geo).forEach(targetGeo => {
             const routeKey = `${sourceGeo.country}__${targetGeo.country}`;
             const existingRoute = routeMap.get(routeKey);
             const incidentTimestamp = safeTimestampFromDate(incident.start_date);

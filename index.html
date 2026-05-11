@@ -1,3 +1,12 @@
+<!-- Presentation notes for me 
+ 
+4. Issues and Challenges faced:
+4.1: Some attack visuals are not displayed correctly
+4.2: incident details shown incorrectly in the side bar / modal 
+4.3: JSON
+
+-->
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -49,12 +58,11 @@
         </div>
 
         <!-- Container for incident details -->
-        <div id="country-incidents-list" class="incidents-list">
-        </div>
+        <div id="country-incidents-list" class="incidents-list"></div>
       </div>
     </div>
 
-<!-- Map container -->
+    <!-- Map container -->
     <div id="map-container">
       <canvas id="map"></canvas>
     </div>
@@ -101,7 +109,8 @@
     </div>
 
     <!--loading the javascripts-->
-    <script src="data.js"></script> <!--holds database information-->
+    <script src="data.js"></script>
+    <!--holds database information-->
     <script src="main.js"></script>
   </body>
 </html>
